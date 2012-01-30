@@ -263,7 +263,7 @@ function eventHandler(e) {
     if (e.which) rightclick = (e.which == 3);
     else if (e.button) rightclick = (e.button == 2);
     // alert('Rightclick: ' + rightclick); // true or false
-
+	e.preventDefault();
     var targ;
     if (e.target) targ = e.target;
     else if (e.srcElement) targ = e.srcElement;
@@ -397,7 +397,6 @@ function updateProximity(x,y) {
     else{
         yArr = new Array(y-1+2, y-0 , y-1);
     }
-    
     
     for(var i = 0 ; i < xArr.length ; i++){
         for (k = 0; k < yArr.length; k++) {
