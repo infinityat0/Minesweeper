@@ -1,0 +1,209 @@
+
+*
+{
+	margin      : 0;
+	padding     : 0;
+}
+
+body 
+{
+	font-family : "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size   : 12px;
+        text-align  : center ;       
+        
+        background-color : rgb(248,248,248);
+}
+
+table
+{
+        border  : 1px solid green ;
+        background-color: rgb(232,232,232) ;    
+}
+/* Wrapper */
+#wrapper 
+{
+	width       : 960px;
+	margin      : 0 auto;
+        text-align  : left ;
+}
+
+/* Header */
+#header
+{
+	height      : 100px;
+}
+
+/* Content */
+#content
+{
+	width       : 100%;      
+}
+
+#left
+{
+        float       : left ;
+        width       : 260px  ;
+}
+
+#right
+{
+        float       : right ;
+        width       : 650px  ;
+}
+
+#footer
+{
+        bottom      : 0px ;
+        height      : 75px ;
+}
+html>body #footer {
+	height      : auto;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+form {
+}
+
+input, textarea {
+	padding: 2px 5px;
+	border: 1px solid #EBEBEB;
+	font: bold 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #6B6B6B;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+h2, h3, h4 {
+	margin-bottom: 20px;
+	padding-bottom: 9px;
+	border-bottom: 1px solid #F2F2F2;
+	letter-spacing: -0.035em;
+	font-weight: normal;
+	color: #37404C;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+p, ul, ol {
+	margin-bottom: 1.5em;
+	line-height: 170%;
+	text-align: justify;
+}
+
+ul, ol {
+	margin-left: 3em;
+}
+
+a {
+	color: #FF5A00;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 5px 20px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 5px 0 0 20px;
+}
+
+/* Wrapper */
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background: url(images/img02.jpg) repeat-y;
+}
+
+/* Header */
+
+#header h1
+{
+        margin-top : 50px ;
+}
+
+/* Logo */
+
+#menu {
+	float: right;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 112px 78px 0 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	padding-left: 40px;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+/* Page */
+
+#page {
+	background: url(images/img04.jpg) no-repeat;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 555px;
+	padding: 0 0 0 76px;
+}
+/* Footer */
+#footer {
+	height: 108px;
+	background: url(images/img05.jpg) no-repeat;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 45px;
+	text-align: center;
+	color: #8E8E8E;
+}
+
+#footer a {
+	color: #666666;
+}
