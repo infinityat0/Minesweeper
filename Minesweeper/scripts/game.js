@@ -21,7 +21,6 @@ var thisX, thisY ;
 var secs = 0 ;
 var stopCounting = true ;
 var size = 10 ; 
-
 /******************************************************************************/
 var board = [
                 [0,0,0,0,0],
@@ -263,7 +262,7 @@ function eventHandler(e) {
     if (e.which) rightclick = (e.which == 3);
     else if (e.button) rightclick = (e.button == 2);
     // alert('Rightclick: ' + rightclick); // true or false
-	e.preventDefault();
+    e.preventDefault();
     var targ;
     if (e.target) targ = e.target;
     else if (e.srcElement) targ = e.srcElement;

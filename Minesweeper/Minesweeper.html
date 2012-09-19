@@ -1,7 +1,7 @@
 <!-- 
-    Document   : battleShips ;
+    Document   : Minsweeper ;
     Created on : Oct 22, 2008, 6:40:15 PM ;
-    Author     : Sunny_Gujjaru ;
+    Author     : Sunny ;
 -->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <!-------------------------------------------------------------------------- -->
@@ -14,7 +14,7 @@
      <link rel = 'Stylesheet' type = 'text/css' href = 'css/index.css'>     
   </head>
 <!-------------------------------------------------------------------------- -->
-<body onLoad = "Draw()" oncontextmenu="return false;">
+<body onLoad = "board.draw()" oncontextmenu="return false;">
     <div id ="wrapper">
         <div id ="band1" >
             <h1>Mine Sweeper </h1>
@@ -25,7 +25,7 @@
                <table>
                     <tbody>
                         <tr>
-                            <td class="borderRight width40"><input class="button" type="button" onclick="return startGame()" value="Start Game" name="startGame" /></td>
+                            <td class="borderRight width40"><input class="button" type="button" onclick="return game.startGame()" value="Start Game" name="game.startGame()" /></td>
                             <td> <input class="button" type="button" onclick="return endGame(false)" value="End Game" name="endGame" /> </td>
                         </tr>
                         <tr>
