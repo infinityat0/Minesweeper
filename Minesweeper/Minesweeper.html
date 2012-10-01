@@ -14,7 +14,7 @@
      <link rel = 'Stylesheet' type = 'text/css' href = 'css/index.css'>     
   </head>
 <!-------------------------------------------------------------------------- -->
-<body onLoad = "board.draw()" oncontextmenu="return false;">
+<body oncontextmenu="return false;">
     <div id ="wrapper">
         <div id ="band1" >
             <h1>Mine Sweeper </h1>
@@ -25,8 +25,8 @@
                <table>
                     <tbody>
                         <tr>
-                            <td class="borderRight width40"><input class="button" type="button" onclick="return game.startGame()" value="Start Game" name="game.startGame()" /></td>
-                            <td> <input class="button" type="button" onclick="return endGame(false)" value="End Game" name="endGame" /> </td>
+                            <td class="borderRight width40"><input class="button" type="button" onclick="return gameController.startGame()" value="Start Game" name="gameController.startGame()" /></td>
+                            <td> <input class="button" type="button" onclick="return gameController.endGame()" value="End Game" name="endGame" /> </td>
                         </tr>
                         <tr>
                             <td class="borderRight width40 pad">Difficulty </td>
